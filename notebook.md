@@ -1,1 +1,0 @@
-# robot_competition_2020 Notebook
