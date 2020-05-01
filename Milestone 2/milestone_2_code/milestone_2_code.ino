@@ -1,25 +1,45 @@
+#include <Wire.h>
 #include <ZumoShield.h>
+
 ZumoMotors motors;
-ZumoReflectanceSensorArray sensors(QTR_NO_EMITTER_PIN);
+ZumoReflectanceSensorArray linesensors(QTR_NO_EMITTER_PIN);
 ZumoBuzzer buzzer;
 
-unsigned int sensor_vals[6];
-
 void setup() {
-  Serial.begin(9600);
-  for(int i = 0; i<250; i++){
-    sensors.calibrate();
-    delay(20);  
+  int i;
+  int spin_direction = 1;
+  motors.setSpeeds(80*spin_direction, -80*spin_direction);
+  for(i = 0; i<150; i++){
+    linesensors.calibrate();
+    if(i%50 == 25){ // every 50 loops, starting on loop 25...
+      spin_direction = -spin_direction;
+      motors.setSpeeds(80*spin_direction, -80*spin_direction);
+    }
+    delay(20);
   }
+  motors.setSpeeds(0,0);
+  delay(500);
 }
 
-void loop() {
-  int p = sensors.readLine(sensor_vals, true);
-  Serial.println(p);
-  delay(50);
+//unsigned int sensor_vals[6];
+//void loop() {
+//  int line_position = linesensors.readLine(sensor_vals);
+//  int frequency = 220 + ((float)line_position / 5000) * 660;
+//  //buzzer.playFrequency(frequency, 100, 15);
+//  //while (buzzer.isPlaying());
+//}
 
-//  motors.setSpeeds(300,284);  
-//  delay(4000);
-//  motors.setSpeeds(0,0);
-//  while(true){}
+unsigned int sensor_vals[6];
+int BASE_SPEED = 200;
+double PROPORTION_GAIN = 0.2;
+double DERIVATIVE_GAIN = 3;
+int last_error = 0;
+void loop() {
+  int line_position = linesensors.readLine(sensor_vals);
+  int error = line_position - 2500;
+  int error_change = error - last_error;
+  int left_speed = BASE_SPEED + PROPORTION_GAIN * error + DERIVATIVE_GAIN * error_change;
+  int right_speed = BASE_SPEED + -PROPORTION_GAIN * error + -DERIVATIVE_GAIN * error_change;
+  last_error = error;
+  motors.setSpeeds(left_speed, right_speed);
 }
