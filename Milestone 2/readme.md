@@ -1,4 +1,4 @@
-#Milestone 2: Get the Zumo to follow a line on the floor for at least 4 feet.#
+#Milestone 2: Get the Zumo to follow a line on the floor for at least 4 feet.
 
 Milestone 2 Video https://drive.google.com/file/d/1ZtvkNNhwKAehfq8QYDaYxPJSEO0A2fW3/view?usp=sharing
 
