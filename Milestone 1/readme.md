@@ -9,4 +9,3 @@ https://drive.google.com/open?id=14FSqWULn30NLKYp1dNTPDvd0hEnohuZ9
 2x2-Feet Square (2.8ft diagonal)
 https://drive.google.com/open?id=1DJqceGBwWq96Mi6uUn5IKcRRI_2mzfDJ
 
-Notes: This solution does not stop after 4 feet, but it does move the Zumo at least 4 feet.
