@@ -2,4 +2,8 @@
 
 Milestone 2 Video https://drive.google.com/file/d/1ZtvkNNhwKAehfq8QYDaYxPJSEO0A2fW3/view?usp=sharing
 
-Notes: This solution does not stop after 4 feet, but it does move the Zumo at least 4 feet.
+2x2-Feet Square (2.8ft diagonal)
+https://drive.google.com/open?id=1DJqceGBwWq96Mi6uUn5IKcRRI_2mzfDJ
+
+Notes: 
+- This solution does not stop after 4 feet, but it does move the Zumo at least 4 feet.

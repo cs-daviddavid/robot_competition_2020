@@ -21,7 +21,7 @@ void setup() {
 }
 
 unsigned int sensor_vals[6];
-int THRESHOLD = 600;
+int THRESHOLD = 700;
 int line_position;
 
 void loop() {
