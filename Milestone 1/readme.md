@@ -4,7 +4,7 @@ Milestone 1 Video
 ![](../Media/Milestone1.mp4)
 
 4-Foot Line
-[[../Media/Line.png]]
+[Line](../Media/Line.png)
 
 Notes: 
 - By default, as seen on the video, the robot veers to the left when the motor speeds are equal. I found that a proportion of 200:187 made the robot move straight.
