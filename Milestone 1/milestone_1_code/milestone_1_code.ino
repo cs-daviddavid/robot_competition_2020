@@ -1,5 +1,5 @@
 // This program contains starter code originally by Prof. Joshua de Leeuw
-// that has been modified to meet the milestone requirements using my particular Zumo robot.
+// that has been modified to meet the milestone requirements using my particular Zumo.
 
 #include <ZumoShield.h>
 ZumoMotors motors;
