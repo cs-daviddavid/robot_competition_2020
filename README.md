@@ -57,10 +57,7 @@ This project is divided into easy-to-follow milestones. The source code for each
 
 * <details>
   <summary>Video: Milestone 1</summary>
-  
-  ```
   ![Milestone 1 Video](./Media/Milestone-1.gif)
-  ```
 </details>
 
 
@@ -87,7 +84,5 @@ The source codes provided are optimized for dark wood flooring with dark lines; 
 * <details>
   <summary>Video: Milestone 1</summary>
   
-  ```
   ![Milestone 1 Video](./Media/Milestone-2.gif)
-  ```
 </details>
