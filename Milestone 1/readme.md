@@ -2,9 +2,9 @@
 
 * Out-of-the-box, my particular Zumo robot veers to the left by default if the left and right motor speeds are kept the same. I found that a ratio of 300:284 made my robot move straight.
 
-* The line in the video measures 48 inches for a total of 4 feet.
+* The line in the video measures 48in or 4ft.
 
-<details>
+* <details>
   <summary>Hint: Motor speeds</summary>
   
   ```
