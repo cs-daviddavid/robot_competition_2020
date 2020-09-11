@@ -14,7 +14,7 @@ Hardware:
 
 Software:
 * Download the [Arduino IDE](https://www.arduino.cc/en/main/software)
-  * With the Arduino IDE, download the ZumoShield library by going to Sketch > Include Library > Manage Libraries > Search for "ZumoShield" > Click ZumoShield > Click "Install." Otherwise, go to the ![official Zumo documentation](https://www.pololu.com/docs/0J57/6) for updated instructions.
+  * With the Arduino IDE, download the ZumoShield library by going to Sketch > Include Library > Manage Libraries > Search "ZumoShield" > Click "ZumoShield" > Click "Install." Otherwise, go to the ![official Zumo documentation](https://www.pololu.com/docs/0J57/6) for updated instructions.
 * Basic C++ knowledge
 
 ## Hints
@@ -55,7 +55,14 @@ This project is divided into easy-to-follow milestones. The source code for each
   ```
 </details>
 
-![Milestone 1 Video](../Media/Milestone-1.gif)
+* <details>
+  <summary>Video: Milestone 1</summary>
+  
+  ```
+  ![Milestone 1 Video](./Media/Milestone-1.gif)
+  ```
+</details>
+
 
 The source codes provided are optimized for dark wood flooring with dark lines; however, if your floor is even darker than the one I optimized to, either some variables may have to be adjusted or putting plain white paper underneath the tape could let the robot run as intended.
 
@@ -77,4 +84,10 @@ The source codes provided are optimized for dark wood flooring with dark lines; 
   ```
 </details>
 
-![Milestone 2 Video](../Media/Milestone-2.gif)
+* <details>
+  <summary>Video: Milestone 1</summary>
+  
+  ```
+  ![Milestone 1 Video](./Media/Milestone-2.gif)
+  ```
+</details>
