@@ -1,9 +1,11 @@
+// This program contains starter code originally by Prof. Joshua de Leeuw
+// that has been modified to meet the milestone requirements using my particular Zumo robot.
+
 #include <Wire.h>
 #include <ZumoShield.h>
 
 ZumoMotors motors;
 ZumoReflectanceSensorArray linesensors(QTR_NO_EMITTER_PIN);
-ZumoBuzzer buzzer;
 
 void setup() {
   int i;
@@ -20,14 +22,6 @@ void setup() {
   motors.setSpeeds(0,0);
   delay(500);
 }
-
-//unsigned int sensor_vals[6];
-//void loop() {
-//  int line_position = linesensors.readLine(sensor_vals);
-//  int frequency = 220 + ((float)line_position / 5000) * 660;
-//  //buzzer.playFrequency(frequency, 100, 15);
-//  //while (buzzer.isPlaying());
-//}
 
 unsigned int sensor_vals[6];
 int BASE_SPEED = 200;
