@@ -11,8 +11,8 @@
   
   ```
   There are two kinds of turning: (Regular) Turning and Zero-Radius Turning. Regular Turning is more like a car such that it takes some distance in order to turn around a corner while Zero-Radius Turning is more like a forklift, Roomba® or Zero-Turn mowers such that they do not cover any distance when turning.
-  Regular Turning can be achieved by making one motor faster than the other. Whichever motor (left or right) is slower is the direction that the ZumoBot would turn.
-  Zero-Radius Turning can be achieved by giving one motor some positive speed and giving the other motor the same speed but negative. Whichever motor (left or right) has the negative value is the direction that the ZumoBot would turn.
+  Regular Turning can be achieved by making one motor faster than the other. Whichever motor (left or right) is slower is the direction that the Zumo would turn.
+  Zero-Radius Turning can be achieved by giving one motor some positive speed and giving the other motor the same speed but negative. Whichever motor (left or right) has the negative value is the direction that the Zumo would turn.
   ```
 </details>
 
