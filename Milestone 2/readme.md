@@ -1,6 +1,6 @@
 # Milestone 2: Get the Zumo to follow a line on the floor for at least 4 feet.
 
-* I chose the PID (proportional–integral–derivative) control method because it seemed to offer less oscillations for my dark wood floor.
+* I chose the PD (proportional–derivative) control method because it seemed to offer less oscillations for my dark wood floor.
 
 * The provided source code does not stop after 4 feet, but it does move the Zumo at least 4 feet.
 
