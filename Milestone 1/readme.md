@@ -1,6 +1,6 @@
 # Milestone 1: Create your own code that moves the Zumo at least 4 feet.
 
-* Out-of-the-box, my particular Zumo robot veers to the left by default if the left and right motor speeds are kept the same. I found that a ratio of 300:284 made my robot move straight.
+* Out-of-the-box, my particular Zumo veers to the left by default if the left and right motor speeds are kept the same. I found that a ratio of 300:284 made my robot move straight.
 
 * The line in the video measures 48in or 4ft.
 
