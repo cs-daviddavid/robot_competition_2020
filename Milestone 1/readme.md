@@ -5,7 +5,8 @@
 * The line in the video measures 48 inches for a total of 4 feet.
 
 <details>
-  <summary>Hint</summary>
+  <summary>Hint: Motor speeds</summary>
+  
   ```
   Start out by testing with equal Left and Right Motor speeds.
   If the robot veers to the left, then the Left Motor should be given a higher speed.
