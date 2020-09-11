@@ -83,7 +83,7 @@ The source codes provided are optimized for dark wood flooring with dark lines; 
 </details>
 
 * <details>
-  <summary>Video: Milestone 1</summary>
+  <summary>Video: Milestone 2</summary>
   
-  ![Milestone 1 Video](./Media/Milestone-2.gif)
+  ![Milestone 2 Video](./Media/Milestone-2.gif)
 </details>
